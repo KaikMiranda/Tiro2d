@@ -1,0 +1,106 @@
+body {
+
+    margin: 0;
+
+    background: #050816;
+
+    display: flex;
+
+    justify-content: center;
+
+    min-height: 100vh;
+
+    align-items: center;
+
+    font-family: Arial, sans-serif;
+
+}
+
+
+/*------------------- Área do Jogo ----------------------*/
+
+#jogo {
+
+    width: 800px;
+
+    height: 600px;
+
+    background:
+
+        radial-gradient(circle at 20% 30%, white 1px, transparent 2px),
+
+        radial-gradient(circle at 70% 20%, white 1px, transparent 2px),
+
+        radial-gradient(circle at 40% 80%, white 1px, transparent 2px),
+
+        radial-gradient(circle at 90% 70%, white 1px, transparent 2px),
+
+        #11182d;
+
+    position: relative;
+
+    overflow: hidden;
+
+    border: 3px solid #384cff;
+
+    border-radius: 12px;
+
+    box-shadow: 0 0 30px #384cff;
+
+}
+
+
+/*------------------- HUD ----------------------*/
+
+#hud {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    width: 800px;
+
+    position: relative;
+
+    z-index: 10;
+
+}
+
+
+#hud p {
+
+    margin: 0;
+
+    color: white;
+
+    font-size: 20px;
+
+    font-weight: bold;
+
+    padding: 15px 20px;
+
+    text-shadow: 0 0 8px #ffffff;
+
+}
+
+
+/*------------------- Nave ----------------------*/
+
+#nave {
+
+    background-image: url("sprite/Nave.png");
+
+    background-size: contain;
+
+    background-repeat: no-repeat;
+
+    background-position: center;
+
+    width: 90px;
+
+    height: 90px;
+
+    position: absolute;
+
+}
+
